@@ -6,8 +6,8 @@ target 'Shopify' do
   use_frameworks!
 
   # Pods for Shopify
-  pod "Mobile-Buy-SDK", "3.1.5"
-  pod "KeychainSwift", "~> 14.0"
+  pod "Mobile-Buy-SDK"
+  pod "KeychainSwift", '~> 16.0'
   pod "Alamofire", "~> 4.8"
   pod 'ShopApp_Gateway', "~> 1.0"
 
